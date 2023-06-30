@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        padding: 0 50px;
+        font-family: "Poppins", sans-serif;
+        background: #009fff; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #ec2f4b,
+          #009fff
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #ec2f4b,
+          #009fff
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+      table {
+        width: 100%;
+      }
+      #mainpic{
+        height: 350px;
+        border-radius: 50%;
+        border: 5px solid white;
+      }
+      .project {
+        width: 350px;
+        height: 200px;
+      }
+      h2 {
+        text-align: center;
+        font-size: 25px;
+      }
+      #aboutheading {
+        text-align: left;
+      }
+      .contact {
+        width: 100%;
+      }
+      form {
+        margin: 0 40%;
+      }
+      input,
+      textarea {
+        width: 100%;
+        border-radius: 25px;
+        padding: 5px;
+      }
+      a {
+        text-decoration: none;
+      }
+      label{
+        color: white;
+      }
+      .btn{
+        width: 100%;
+        text-align: center;
+      }
+      button{
+        width: 50%;
+        border-radius: 25px;
+        padding: 5px;
+      }
+      .fa-brands{
+        color: white;
+        font-size: 25px;
+        margin: 20px;
+      }
+      td,tr{
+        margin: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <td><h1>portfolio</h1></td>
+        <td>about</td>
+        <td>projects</td>
+        <td>contact</td>
+        <td>footer</td>
+      </tr>
+    </table>
+
+    <!-- about -->
+    <table>
+      <tr>
+        <td>
+          <h2 id="aboutheading">About me</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quos
+            illo consectetur hic dolorem. At similique maiores dolorum quod
+            magnam itaque! Facere enim iste doloribus quis earum dolor nisi
+            quae, eos ex ratione corrupti sapiente!
+          </p>
+        </td>
+        <td>
+          <img id="mainpic" src="./img2.jpg" alt="" />
+        </td>
+      </tr>
+    </table>
+
+    <!-- projects -->
+    <h2>Projects</h2>
+    <table>
+      <tr>
+        <td align="center"><img src="./1.jpg" alt="" class="project" /></td>
+        <td align="center"><img src="./2.jpg" alt="" class="project" /></td>
+        <td align="center"><img src="./3.jpg" alt="" class="project" /></td>
+      </tr>
+      <tr>
+        <td align="center"><img src="./4.jpg" alt="" class="project" /></td>
+        <td align="center"><img src="./5.jpg" alt="" class="project" /></td>
+        <td align="center"><img src="./6.png" alt="" class="project" /></td>
+      </tr>
+    </table>
+
+    <!-- contact -->
+    <h2>Contact</h2>
+    <div class="contact">
+      <form action="">
+        <label for="">Name: </label><br />
+        <input type="text" placeholder="enter your name" />
+        <br />
+        <label for="">Email: </label><br />
+        <input type="email" placeholder="enter your email" />
+        <br />
+        <label for="">Contact no.:</label><br />
+        <input type="text" placeholder="enter your number" />
+        <br />
+        <label for="">Message:</label><br />
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <div class="btn">
+          <button >submit</button>
+        </div>
+      </form>
+    </div>
+    <!-- footer -->
+    <div align="center">
+      <a href="https://www.instagram.com/" target="_blank"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+      <a href="https://www.youtube.com/" target="_blank"
+        ><i class="fa-brands fa-youtube"></i
+      ></a>
+      <a
+        href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiD5rDziOv_AhXEdXAKHZW-A70QFnoECCwQAQ&url=https%3A%2F%2Fin.linkedin.com%2F&usg=AOvVaw1HyOXdC-jXyHRjrwaB7Mnw&opi=89978449"
+        target="_blank"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+    </div>
+  </body>
+</html>
